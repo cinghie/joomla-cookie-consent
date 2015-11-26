@@ -1,2 +1,36 @@
-# Joomla Gogodigital Cookie Consent
-Plugin to add Cookie Consent script to a Joomla Website
+# Gogodigital Cookie Consent for Joomla
+
+Gogodigital Cookie Consent is a Joomla Plugin to add Cookie Consent script to your Website: Cookie Consent is a wonderful script, that you can find here, allows to show a warning for cookie policy.
+
+As the script from silktide.com, also the plugin is very simple to use
+
+## Parameters
+
+### theme
+
+The theme you wish to use. Can be any of the themes from the select
+
+    Dark => Bottom, Floating and Top
+    Light => Bottom, Floating and Top
+
+Default: ‘dark-bottom’
+
+### message
+
+The message shown by the plugin.
+Default: ‘This website uses cookies to ensure you get the best experience on our website’
+
+### dismiss
+
+The text used on the dismiss button.
+Default: ‘Got it!’
+
+### learnMore
+
+The text shown on the link to the cookie policy (requires the link option to also be set)
+Default: ‘More info’
+
+### link
+
+The url of your cookie policy. If it’s set to null, the link is hidden.
+Default: null
