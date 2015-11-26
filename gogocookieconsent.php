@@ -8,7 +8,7 @@
 // no direct access
 defined( '_JEXEC' ) or die;
 
-class plgSystemJcookieconsent extends JPlugin 
+class plgSystemGogocookieconsent extends JPlugin 
 {
 	public function __construct( &$subject, $config ) 
 	{	

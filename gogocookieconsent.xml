@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+	<name>PLG_SYSTEM_GOGOCOOKIECONSENT</name>
+	<author>Gogodigital Srls</author>
+	<creationDate>2015-11-218</creationDate>
+	<copyright>Copyright (C) 2015 Gogodigital Slrs. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>info@gogodigital.it</authorEmail>
+	<authorUrl>www.gogodigital.it</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_SYSTEM_GOGOCOOKIECONSENT_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="gogocookieconsent">gogocookieconsent.php</filename>
+	</files>
+	<languages>
+	   <language tag="en-GB">language/en-GB/en-GB.plg_system_gogocookieconsent.sys.ini</language>
+	   <language tag="it-IT">language/it-IT/it-IT.plg_system_gogocookieconsent.sys.ini</language>
+	</languages>
+	<config>
+	
+		<fields name="params">
+		
+			<fieldset name="basic">
+		
+				<field name="cookieTheme" type="list" 
+					default="dark-bottom" 
+	            	label="PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LABEL" 
+	            	description="PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_DESC">
+	            	<option value="dark-bottom">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_DARK_BOTTOM</option>
+					<option value="dark-floating">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_DARK_FLOATING</option>
+	            	<option value="dark-top">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_DARK_TOP</option>
+	            	<option value="light-bottom">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LIGHT_BOTTOM</option>
+					<option value="light-floating">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LIGHT_FLOATING</option>
+	                <option value="light-top">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LIGHT_TOP</option>
+	            </field>		
+		
+				<field name="cookieMessage" type="textarea" cols="60" rows="4" 
+				    default="This website uses cookies to ensure you get the best experience on our website" filter="raw"
+	            	label="PLG_SYSTEM_GOGOCOOKIECONSENT_MESSAGE_LABEL" 
+	            	description="PLG_SYSTEM_GOGOCOOKIECONSENT_MESSAGE_DESC" /> 
+				
+				<field name="cookieDismiss" type="text" size="6"  
+					default="Got It!" 
+					label="PLG_SYSTEM_GOGOCOOKIECONSENT_DISMISS_LABEL" 
+					description="PLG_SYSTEM_GOGOCOOKIECONSENT_DISMISS_DESC" />	
+				
+				<field name="cookieMore" type="text" size="6"  
+					default="learnMore" 
+					label="PLG_SYSTEM_GOGOCOOKIECONSENT_LEARNMORE_LABEL" 
+					description="PLG_SYSTEM_GOGOCOOKIECONSENT_LEARNMORE_DESC" />		
+			
+			</fieldset>
+		
+		</fields>
+		
+	</config>
+</extension>	
