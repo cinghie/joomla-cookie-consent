@@ -18,23 +18,19 @@ Default: ‘dark-bottom’
 ### message
 
 The message shown by the plugin.
-
 Default: ‘This website uses cookies to ensure you get the best experience on our website’
 
 ### dismiss
 
 The text used on the dismiss button.
-
 Default: ‘Got it!’
 
 ### learnMore
 
 The text shown on the link to the cookie policy (requires the link option to also be set)
-
 Default: ‘More info’
 
 ### link
 
 The url of your cookie policy. If it’s set to null, the link is hidden.
-
 Default: null
