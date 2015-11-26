@@ -42,7 +42,12 @@
 				<field name="cookieDismiss" type="text" size="6"  
 					default="Got It!" 
 					label="PLG_SYSTEM_JCOOKIECONSENT_DISMISS_LABEL" 
-					description="PLG_SYSTEM_JCOOKIECONSENT_DISMISS_DESC" />					
+					description="PLG_SYSTEM_JCOOKIECONSENT_DISMISS_DESC" />	
+				
+				<field name="cookieMore" type="text" size="6"  
+					default="learnMore" 
+					label="PLG_SYSTEM_JCOOKIECONSENT_LEARNMORE_LABEL" 
+					description="PLG_SYSTEM_JCOOKIECONSENT_LEARNMORE_DESC" />		
 			
 			</fieldset>
 		

@@ -28,7 +28,7 @@ class plgSystemJcookieconsent extends JPlugin
 		$cookieScript = 'window.cookieconsent_options = {
 			"message":"'.$this->params->get("cookieMessage","This website uses cookies to ensure you get the best experience on our website").'",
 			"dismiss":"'.$this->params->get("cookieDismiss","Got It!").'",
-			"learnMore":"More info",
+			"learnMore":"'.$this->params->get("cookieMore","More Info").'",
 			"link":'.$this->params->get("cookieLink","null").',
 			"theme":"'.$this->params->get("cookieTheme","dark-bottom").'"
 		};';
