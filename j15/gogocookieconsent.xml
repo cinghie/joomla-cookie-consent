@@ -8,7 +8,7 @@
 	<authorEmail>info@gogodigital.it</authorEmail>
 	<authorUrl>www.gogodigital.it</authorUrl>
 	<version>1.5.0</version>
-	<description>PLG_SYSTEM_GOGOCOOKIECONSENT_XML_DESCRIPTION</description>
+	<description>System Plugin - Gogodigital Cookie Consent</description>
 	<files>
 		<filename plugin="gogocookieconsent">gogocookieconsent.php</filename>
 	</files>
@@ -27,7 +27,6 @@
 			<option value="light-floating">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LIGHT_FLOATING</option>
 	        <option value="light-top">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LIGHT_TOP</option>
 		</param>
-		
 		<param name="cookieMessage" type="textarea" cols="35" rows="4"
 			default="This website uses cookies to ensure you get the best experience on our website" 
 			label="PLG_SYSTEM_GOGOCOOKIECONSENT_MESSAGE_LABEL" 
