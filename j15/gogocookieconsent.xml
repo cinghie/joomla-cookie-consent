@@ -13,8 +13,8 @@
 		<filename plugin="gogocookieconsent">gogocookieconsent.php</filename>
 	</files>
 	<languages>
-	   <language tag="en-GB">language/en-GB/en-GB.plg_system_gogocookieconsent.ini</language>
-	   <language tag="it-IT">language/it-IT/it-IT.plg_system_gogocookieconsent.ini</language>
+	   <language tag="en-GB">languages/en-GB/en-GB.plg_system_gogocookieconsent.ini</language>
+	   <language tag="it-IT">languages/it-IT/it-IT.plg_system_gogocookieconsent.ini</language>
 	</languages>
 	<params>
 		<param name="cookieTheme" type="list" default="PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_DARK_BOTTOM" 
