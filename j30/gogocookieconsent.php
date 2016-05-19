@@ -14,6 +14,9 @@
 // no direct access
 defined( '_JEXEC' ) or die;
 
+// Import Joomla! Plugin library file
+jimport('joomla.plugin.plugin');
+
 class plgSystemGogocookieconsent extends JPlugin 
 {
 	public function __construct( &$subject, $config ) 
