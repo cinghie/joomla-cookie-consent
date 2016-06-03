@@ -34,3 +34,10 @@ Default: ‘More info’
 
 The url of your cookie policy. If it’s set to null, the link is hidden.
 Default: null
+
+## Changelog
+
+<ul>
+    <li>Version 3.0.1 - Update extension for JED</li>
+    <li>Version 3.0.0 - Initial Release</li>
+</ul>
