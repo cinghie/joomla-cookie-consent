@@ -22,8 +22,9 @@
 	</files>
 	<media destination="gogodigital" folder="media">
 		<filename>index.html</filename>
-		<folder>assets/css</folder>
-		<folder>assets/js</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+        <folder>scss</folder>
 	</media>
 	<languages>
 	   <language tag="en-GB">languages/en-GB/en-GB.plg_system_gogocookieconsent.ini</language>
