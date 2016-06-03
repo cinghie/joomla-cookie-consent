@@ -47,10 +47,20 @@ class plgSystemGogocookieconsent extends JPlugin
 		$cookieScript .= '
 			"theme":"'.$this->params->get("cookieTheme","dark-bottom").'"
 		};';
-		
-		$doc->addScript('//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js');
-		$doc->addScriptDeclaration($cookieScript);
+
+		switch($this->params->get("cookieLoad"))
+        {
+            case 0:
+                break;
+            case 1:
+                $doc->addScript('//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js');
+                $doc->addScriptDeclaration($cookieScript);
+                break;
+            case 2:
+                $doc->addScript('media/gogodigital/js/cookieconsent.min.js');
+                $doc->addScriptDeclaration($cookieScript);
+                break;
+        }
 	}	
 	
 }
-	

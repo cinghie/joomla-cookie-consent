@@ -39,9 +39,9 @@
                        default="1"
                        label="PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_LABEL"
                        description="PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_DESC">
-                    <option value="0">PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_CDN_LABEL</option>
-                    <option value="1">PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_INTERNAL_LABEL</option>
-                    <option value="2">PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_NOT_LABEL</option>
+                    <option value="0">PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_NOT_LABEL</option>
+                    <option value="1">PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_CDN_LABEL</option>
+                    <option value="2">PLG_SYSTEM_GOGOCOOKIECONSENT_LOAD_INTERNAL_LABEL</option>
                 </field>
 				<field name="cookieTheme" type="list" 
                         default="dark-bottom"
