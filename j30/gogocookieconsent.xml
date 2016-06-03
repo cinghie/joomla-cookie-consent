@@ -7,13 +7,23 @@
 	<license>GNU General Public License version 2 or later</license>
 	<authorEmail>info@gogodigital.it</authorEmail>
 	<authorUrl>www.gogodigital.it</authorUrl>
-	<version>3.0.0</version>
-	<description>System Plugin - Gogodigital Cookie Consent</description>
+	<version>3.0.1</version>
+	<description><![CDATA[
+        <span style="color: #4d4d4d; font-family: Arial; font-size:13px !important; font-weight: normal !important; line-height: 24px; padding: 0 0 0 10px; text-align: justify;">
+            <h1 style="border-bottom: 1px solid #eee; clear:both; color:#333; font-family: Georgia, sans-serif; font-size:38px; margin:10px 20px 24px; padding:0 0 24px 10px; font-weight: normal;">
+                Gogodigital Cookie Consent Plugin <small>ver. 3.0.1</small>
+            </h1>
+            <p style="margin: 10px 25px 15px">Gogodigital Cookie Consent Plugin for Joomla is a System Plugin to add Cookie Consent script to your Website: <strong>Cookie Consent</strong> is a wonderful script, that you can find <a title="Cookie Consent Script" target="_blank" href="https://silktide.com/tools/cookie-consent/">here</a>, allows to show a warning for <strong>cookie policy</strong>.</p>
+            <p style="margin: 10px 25px 30px"><a target="_blank" href="http://www.gogodigital.it/development/estensioni/joomla/joomla-gogodigital-cookie-consents">Learn More</a></p>
+        </span>
+    ]]></description>
 	<files>
 		<filename plugin="gogocookieconsent">gogocookieconsent.php</filename>
 	</files>
 	<languages>
+	   <language tag="en-GB">languages/en-GB/en-GB.plg_system_gogocookieconsent.ini</language>
 	   <language tag="en-GB">languages/en-GB/en-GB.plg_system_gogocookieconsent.sys.ini</language>
+	   <language tag="it-IT">languages/it-IT/it-IT.plg_system_gogocookieconsent.ini</language>
 	   <language tag="it-IT">languages/it-IT/it-IT.plg_system_gogocookieconsent.sys.ini</language>
 	</languages>
 	<config>
@@ -30,7 +40,7 @@
 					<option value="light-floating">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LIGHT_FLOATING</option>
 	                <option value="light-top">PLG_SYSTEM_GOGOCOOKIECONSENT_THEME_LIGHT_TOP</option>
 	            </field>
-				<field name="cookieMessage" type="textarea" cols="60" rows="4" 
+				<field name="cookieMessage" type="textarea" cols="60" size="6"
 				    default="This website uses cookies to ensure you get the best experience on our website" filter="raw"
 	            	label="PLG_SYSTEM_GOGOCOOKIECONSENT_MESSAGE_LABEL" 
 	            	description="PLG_SYSTEM_GOGOCOOKIECONSENT_MESSAGE_DESC" /> 

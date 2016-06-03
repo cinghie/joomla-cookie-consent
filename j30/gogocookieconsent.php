@@ -5,10 +5,8 @@
  * @company Gogodigital Srls - Wide ICT Solutions
  * @website http://www.gogodigital.it
  * @email info@gogodigital.it
- * @github https://github.com/cinghie/joomla-gogo-cookie-consent
- * @license GNU GENERAL PUBLIC LICENSE VERSION 2
  * @package Joomla Gogodigital Cookie Consent
- * @version 3.0.0
+ * @version 3.0.1
  */
 
 // no direct access
