@@ -38,6 +38,6 @@ Default: null
 ## Changelog
 
 <ul>
-    <li>Version 3.0.1 - Update extension for JED</li>
+    <li>Version 3.0.1 - Adding load script option</li>
     <li>Version 3.0.0 - Initial Release</li>
 </ul>
