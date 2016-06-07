@@ -5,6 +5,7 @@
  * @company Gogodigital Srls - Wide ICT Solutions
  * @website http://www.gogodigital.it
  * @email info@gogodigital.it
+ * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package Joomla Gogodigital Cookie Consent
  * @version 3.0.1
  */
