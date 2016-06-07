@@ -7,11 +7,11 @@
 	<license>GNU General Public License version 3</license>
 	<authorEmail>info@gogodigital.it</authorEmail>
 	<authorUrl>www.gogodigital.it</authorUrl>
-	<version>3.0.1</version>
+	<version>3.0.2</version>
 	<description><![CDATA[
         <span style="color: #4d4d4d; font-family: Arial; font-size:13px !important; font-weight: normal !important; line-height: 24px; padding: 0 0 0 10px; text-align: justify;">
             <h1 style="border-bottom: 1px solid #eee; clear:both; color:#333; font-family: Georgia, sans-serif; font-size:38px; margin:10px 20px 24px; padding:0 0 24px 10px; font-weight: normal;">
-                Gogodigital Cookie Consent Plugin <small>ver. 3.0.1</small>
+                Gogodigital Cookie Consent Plugin <small>ver. 3.0.2</small>
             </h1>
             <p style="margin: 10px 25px 15px">Gogodigital Cookie Consent Plugin for Joomla is a System Plugin to add Cookie Consent script to your Website: <strong>Cookie Consent</strong> is a wonderful script, that you can find <a title="Cookie Consent Script" target="_blank" href="https://silktide.com/tools/cookie-consent/">here</a>, allows to show a warning for <strong>cookie policy</strong>.</p>
             <p style="margin: 10px 25px 30px"><a target="_blank" href="http://www.gogodigital.it/development/estensioni/joomla/joomla-gogodigital-cookie-consent">Learn More</a></p>

@@ -38,6 +38,7 @@ Default: null
 ## Changelog
 
 <ul>
+    <li>Version 3.0.2 - Update License</li>
     <li>Version 3.0.1 - Adding load script option</li>
     <li>Version 3.0.0 - Initial Release</li>
 </ul>

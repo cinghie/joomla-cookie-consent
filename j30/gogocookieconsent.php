@@ -7,7 +7,7 @@
  * @email info@gogodigital.it
  * @license GNU GENERAL PUBLIC LICENSE VERSION 3
  * @package Joomla Gogodigital Cookie Consent
- * @version 3.0.1
+ * @version 3.0.2
  */
 
 // no direct access
